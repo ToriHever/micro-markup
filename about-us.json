@@ -1,0 +1,102 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "AboutPage",
+            "@id": "https://ddos-guard.ru/about-us#aboutpage",
+            "url": "https://ddos-guard.ru/about-us",
+            "name": "О компании DDoS-Guard",
+            "isPartOf": {
+                "@type": "WebSite",
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:org"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "urn:ddosguard:ru:org",
+            "name": "DDoS-Guard",
+            "legalName": "ООО «ДДОС-ГВАРД»",
+            "description": "Разработчик программного обеспечения в сфере защиты от DDoS-атак и провайдер безопасных облачных решений",
+            "taxID": "9204005780",
+            "url": "https://ddos-guard.ru",
+            "image": "https://ddos-guard.ru/_nuxt/maskot.YO3ce09f.png",
+            "foundingDate": "2011-05-02",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://ddos-guard.net/uploads/Logo_square_1_c85c674cf3.svg",
+                "width": 200,
+                "height": 200
+            },
+            "telephone": "+78003331763",
+            "email": "info@ddos-guard.net",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "ул. Максима Горького, д. 276, этаж 5, офис 11",
+                "addressLocality": "Ростов-на-Дону",
+                "postalCode": "344019",
+                "addressCountry": "RU"
+            },
+            "subjectOf": [
+                {
+                    "@type": "AboutPage",
+                    "@id": "https://ddos-guard.ru/about-us#aboutpage"
+                },
+                {
+                    "@type": "ContactPage",
+                    "@id": "https://ddos-guard.ru/contacts#contactpage"
+                }
+            ],
+            "sameAs": [
+                "https://habr.com/ru/companies/ddosguard/articles/",
+                "https://github.com/ddos-guard",
+                "https://pikabu.ru/@DDoS.Guard/rating",
+                "https://vc.ru/id1176776",
+                "https://t.me/ddos_guard",
+                "https://www.youtube.com/channel/UCMJ8F6AEGusH1d41h3qY-Ig",
+                "https://vk.com/ddosguard"
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+78003331763",
+                "contactType": "technical support",
+                "url": "https://ddos-guard.ru/contacts"
+            },
+            "award": "Финалист национальной премии ЦОДы.РФ в номинации «Хостер года»",
+            "hasCertification": [
+                {
+                    "@type": "Certification",
+                    "name": "Лицензия на оказание телематических услуг связи № Л030-00114-77/00074640 от 25.12.2019",
+                    "url": "https://rkn.gov.ru/communication/register/license/?id=%D0%9B030-00114-77%2F00074640",
+                    "issuedBy": {
+                        "@type": "Organization",
+                        "name": "Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций",
+                        "url": "https://rkn.gov.ru/"
+                    }
+                },
+                {
+                    "@type": "Certification",
+                    "name": "Лицензия на оказание услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации №Л030-00114-77/00074641 от 25.12.2019",
+                    "url": "https://rkn.gov.ru/communication/register/license/?id=%D0%9B030-00114-77%2F00074641",
+                    "issuedBy": {
+                        "@type": "Organization",
+                        "name": "Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций",
+                        "url": "https://rkn.gov.ru/"
+                    }
+                },
+                {
+                    "@type": "Certification",
+                    "name": "Лицензия ФСТЭК № Л024-00107-00/00582472 от 14.07.2017",
+                    "url": "https://reestr.fstec.ru/regview1?guid=db50c2b9-bbc9-4dea-be21-9914fdd6a883",
+                    "issuedBy": {
+                        "@type": "Organization",
+                        "name": "Федеральная служба по техническому и экспортному контролю (ФСТЭК)",
+                        "url": "https://reestr.fstec.ru/"
+                    }
+                }
+            ]
+        }
+    ]
+}

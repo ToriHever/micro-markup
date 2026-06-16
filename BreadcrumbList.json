@@ -1,0 +1,34 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Главная",
+                    "item": "https://ddos-guard.ru/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Термины",
+                    "item": "https://ddos-guard.ru/terms"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Протоколы и службы",
+                    "item": "https://ddos-guard.ru/terms/protocols"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "TCP-рукопожатие",
+                    "item": "https://ddos-guard.ru/terms/protocols/tcp-handshake"
+                }
+            ]
+        }
+    ]
+}

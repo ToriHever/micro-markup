@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://ddos-guard.ru/terms#collectionpage",
+            "url": "https://ddos-guard.ru/terms",
+            "name": "База терминов DDoS-Guard",
+            "description": "Термины, которые помогут лучше ориентироваться в области защиты от DDoS-угроз. Узнайте больше в базе знаний DDoS-Guard",
+            "isPartOf": {
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:terms"
+            }
+        },
+        {
+            "@type": "ItemList",
+            "@id": "urn:ddosguard:ru:terms",
+            "name": "Список категорий терминов",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/terms#collectionpage"
+            },
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "CollectionPage",
+                        "@id": "https://ddos-guard.ru/terms/general#collectionpage",
+                        "name": "Общие термины"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "CollectionPage",
+                        "@id": "https://ddos-guard.ru/terms/protocols#collectionpage",
+                        "name": "Протоколы и службы"
+                    }
+                }
+            ]
+        }
+    ]
+}

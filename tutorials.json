@@ -1,0 +1,36 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://ddos-guard.ru/tutorials#collectionpage",
+            "url": "https://ddos-guard.ru/tutorials",
+            "name": "База инструкций DDoS-Guard",
+            "description": "В этом разделе собрали всю информацию об услуге и добавили инструкции по ее подключению и настройке, а также по работе с каждым отдельным функционалом.",
+            "isPartOf": {
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:tutorials"
+            }
+        },
+        {
+            "@type": "ItemList",
+            "@id": "urn:ddosguard:ru:tutorials",
+            "name": "Категории инструкций",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/tutorials#collectionpage"
+            },
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://ddos-guard.ru/tutorials/website-protection#collectionpage",
+                        "name": "Защита сайта"
+                    }
+                }
+            ]
+        }
+    ]
+}

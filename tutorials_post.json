@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/tutorials/website-protection/how-it-works/",
+            "url": "https://ddos-guard.ru/tutorials/website-protection/how-it-works/",
+            "name": "Как работает защита сайта",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/tutorials/website-protection#collectionpage"
+            },
+            "inLanguage": "ru-RU",
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:tutorials:283"
+            }
+        },
+        {
+            "@type": "TechArticle",
+            "@id": "urn:ddosguard:ru:tutorials:283",
+            "headline": "Как работает защита сайта",
+            "description": "Подробное описание",
+            "image": "https://ddos-guard.net/uploads/medium_CDN_abbb221abe.png",
+            "inLanguage": "ru-RU",
+            "author": {
+                "@type": "Person",
+                "@id": "urn:ddosguard:ru:aut:org",
+                "url": "https://ddos-guard.ru/author/org",
+                "name": "DDoS-Guard"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org",
+                "name": "DDoS-Guard"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/tutorials/website-protection/how-it-works/"
+            }
+        }
+    ]
+}

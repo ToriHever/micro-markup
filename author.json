@@ -1,0 +1,31 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Person",
+            "@id": "urn:ddosguard:ru:aut:org",
+            "name": "DDoS-Guard",
+            "image": "https://ddos-guard.net/uploads/495052762_b67e63960a.jpeg",
+            "jobTitle": "Команда DDoS-Guard",
+            "url": "https://ddos-guard.ru/author/org",
+            "worksFor": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org"
+            },
+            "knowsAbout": [
+                "Cybersecurity",
+                "L7 Protection",
+                "Nginx"
+            ],
+            "sameAs": [
+                "https://habr.com/ru/companies/ddosguard/articles/",
+                "https://github.com/ddos-guard",
+                "https://pikabu.ru/@DDoS.Guard/rating",
+                "https://vc.ru/id1176776",
+                "https://t.me/ddos_guard",
+                "https://www.youtube.com/channel/UCMJ8F6AEGusH1d41h3qY-Ig",
+                "https://vk.com/ddosguard"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@context": "https://schema.org/",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/blog/trebovaniya-k-ori-2026#webpage",
+            "url": "https://ddos-guard.ru/blog/trebovaniya-k-ori-2026",
+            "isPartOf": {
+                "@type": "Blog",
+                "@id": "urn:ddosguard:ru:blog"
+            },
+            "inLanguage": "ru-RU",
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:art:578"
+            }
+        },
+        {
+            "@type": "BlogPosting",
+            "@id": "urn:ddosguard:ru:art:578",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/blog/trebovaniya-k-ori-2026#webpage"
+            },
+            "headline": "Требования к ОРИ в 2026: что изменилось для бизнеса",
+            "name": "Требования к ОРИ в 2026: что изменилось для бизнеса",
+            "description": "Нововведения для ОРИ в 2026 году. Ключевые изменения для организаторов распространения информации.",
+            "datePublished": "2026-05-19T17:55:00+03:00",
+            "dateModified": "2026-05-19T17:55:00+03:00",
+            "author": {
+                "@type": "Person",
+                "@id": "urn:ddosguard:ru:aut:valeria",
+                "url": "https://ddos-guard.ru/author/Valeria",
+                "name": "Валерия Егорова"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org",
+                "name": "DDoS-Guard"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://ddos-guard.net/uploads/Trebovaniya_k_ORI_v_2026_2_73161e25c7.jpg#imageobject",
+                "url": "https://ddos-guard.net/uploads/Trebovaniya_k_ORI_v_2026_2_73161e25c7.jpg",
+                "height": 362,
+                "width": 388
+            },
+            "isPartOf": {
+                "@type": "Blog",
+                "@id": "urn:ddosguard:ru:blog"
+            },
+            "wordCount": "488",
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Организатор распространения информации (ОРИ)",
+                    "sameAs": [
+                        "https://ru.wikipedia.org/wiki/Организатор_распространения_информации"
+                    ]
+                }
+            ],
+            "mentions": [
+                {
+                    "@type": "TechArticle",
+                    "@id": "urn:ddosguard:ru:technologies:24"
+                }
+            ]
+        }
+    ]
+}

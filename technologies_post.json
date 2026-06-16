@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/technologies/cdn#webpage",
+            "url": "https://ddos-guard.ru/technologies/cdn",
+            "name": "Архитектура CDN сервисов DDoS-Guard",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/technologies#collectionpage"
+            },
+            "inLanguage": "ru-RU",
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:technologies:24"
+            }
+        },
+        {
+            "@type": "TechArticle",
+            "@id": "urn:ddosguard:ru:technologies:24",
+            "headline": "Архитектура CDN сервисов DDoS-Guard",
+            "description": "Подробное описание расположения узлов фильтрации и принципов работы нашей сети доставки контента.",
+            "image": "https://ddos-guard.net/uploads/medium_CDN_abbb221abe.png",
+            "inLanguage": "ru-RU",
+            "author": {
+                "@type": "Person",
+                "@id": "urn:ddosguard:ru:aut:org",
+                "url": "https://ddos-guard.ru/author/org",
+                "name": "DDoS-Guard"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org",
+                "name": "DDoS-Guard"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/technologies/cdn#webpage"
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://ddos-guard.ru/technologies#collectionpage",
+            "url": "https://ddos-guard.ru/technologies",
+            "name": "База технологий DDoS-Guard",
+            "description": "Как функционирует сервис защиты от DDoS-атак? Просто и наглядно рассказываем об используемых технологиях DDoS-Guard и как они работают",
+            "isPartOf": {
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:technologies"
+            }
+        },
+        {
+            "@type": "ItemList",
+            "@id": "urn:ddosguard:ru:technologies",
+            "name": "Список технологий",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/technologies#collectionpage"
+            },
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://ddos-guard.ru/technologies/geo-distributed-ddos-protection#webpage",
+                        "name": "Геораспределенная защита от DDoS-атак"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://ddos-guard.ru/technologies/cdn#webpage",
+                        "name": "CDN (сеть доставки контента)"
+                    }
+                }
+            ]
+        }
+    ]
+}

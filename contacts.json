@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "ContactPage",
+            "@id": "https://ddos-guard.ru/contacts#contactpage",
+            "url": "https://ddos-guard.ru/contacts",
+            "name": "Контакты компании DDoS-Guard",
+            "isPartOf": {
+                "@type": "WebSite",
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:org"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "urn:ddosguard:ru:org",
+            "name": "DDoS-Guard",
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+78003331763",
+                    "email": "info@ddos-guard.net",
+                    "contactType": "customer support",
+                    "availableLanguage": "RU",
+                    "hoursAvailable": "Mo-Su 00:00-24:00"
+                },
+                {
+                    "@type": "ContactPoint",
+                    "email": "pr@ddos-guard.net",
+                    "availableLanguage": "RU"
+                }
+            ],
+            "subjectOf": [
+                {
+                    "@type": "AboutPage",
+                    "@id": "https://ddos-guard.ru/about-us#aboutpage"
+                },
+                {
+                    "@type": "ContactPage",
+                    "@id": "https://ddos-guard.ru/contacts#contactpage"
+                }
+            ]
+        }
+    ]
+}

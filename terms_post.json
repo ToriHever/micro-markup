@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/terms/general/web-server#webpage",
+            "url": "https://ddos-guard.ru/terms/general/web-server",
+            "name": "Веб-сервер",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/terms/general#collectionpage"
+            },
+            "inLanguage": "ru-RU",
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:terms:529"
+            }
+        },
+        {
+            "@type": "DefinedTerm",
+            "@id": "urn:ddosguard:ru:terms:529",
+            "headline": "Веб-сервер",
+            "description": "Компьютер в сети, принимающий HTTP-запросы от клиентов (обычно веб-браузеров), и выдающий им HTTP-ответы. Как правило, вместе с HTTP-ответом веб-сервер отвечает HTML-страницей, изображением, медиа-потоком или другими данными.",
+            "image": "https://ddos-guard.net/uploads/images/03.%20%D0%92%D0%B5%D0%B1-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%282%29.png",
+            "inLanguage": "ru-RU",
+            "author": {
+                "@type": "Person",
+                "@id": "urn:ddosguard:ru:aut:org",
+                "url": "https://ddos-guard.ru/author/org",
+                "name": "DDoS-Guard"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org",
+                "name": "DDoS-Guard"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/terms/general/web-server#webpage"
+            }
+        }
+    ]
+}

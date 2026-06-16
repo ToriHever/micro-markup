@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://ddos-guard.ru/terms/general#collectionpage",
+            "url": "https://ddos-guard.ru/terms/general",
+            "name": "Общие термины",
+            "description": "Общие термины, которые помогут лучше ориентироваться в области сетевых технологий, защиты данных и интернет-трафика. Узнайте больше в базе знаний DDoS-Guard",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/terms#collectionpage"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:terms:general"
+            }
+        },
+        {
+            "@type": "DefinedTermSet",
+            "@id": "urn:ddosguard:ru:terms:general",
+            "name": "Общие термины",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/terms/general#collectionpage"
+            },
+            "hasDefinedTerm": [
+                {
+                    "@type": "DefinedTerm",
+                    "@id": "urn:ddosguard:ru:terms:529",
+                    "name": "Веб-сервер",
+                    "url": "https://ddos-guard.ru/terms/general/web-server"
+                },
+                {
+                    "@type": "DefinedTerm",
+                    "@id": "urn:ddosguard:ru:terms:533",
+                    "name": "Домен, доменное имя",
+                    "url": "https://ddos-guard.ru/terms/general/domain"
+                }
+            ]
+        }
+    ]
+}

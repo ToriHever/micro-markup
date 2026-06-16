@@ -1,0 +1,197 @@
+{
+    "@context": "https://schema.org/",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/web-protection#webpage",
+            "url": "https://ddos-guard.ru/web-protection",
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:web-protection"
+            },
+            "isPartOf": {
+                "@id": "urn:ddosguard:ru:site"
+            }
+        },
+        {
+            "@type": "ProductGroup",
+            "@id": "urn:ddosguard:ru:web-protection",
+            "productGroupID": "web-protection",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/web-protection#webpage"
+            },
+            "name": "Защита сайта от DDoS-атак",
+            "description": "Надежная защита от DDoS атак на уровне L7 для сайтов без смены хостинга. ✔️ CDN на всех тарифах. ✔️ Уникальные модули защиты. ✔️ Бесплатный тест от 3-х дней",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "urn:ddosguard:ru:web-protection:img",
+                "url": "https://ddos-guard.net/uploads/new_logo_square_1_e611d1c68e.svg",
+                "width": 512,
+                "height": 512
+            },
+            "brand": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org"
+            },
+            "category": "Фильтрация WEB трафика",
+            "variesBy": [
+                "https://schema.org/name"
+            ],
+            "additionalProperty": [
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:sla",
+                    "name": "Гарантированная доступность (SLA)",
+                    "value": "99.95",
+                    "unitText": "%"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:fbw",
+                    "name": "Пропускная способность полосы фильтрации",
+                    "value": "4",
+                    "unitText": "Tbit/s"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:ltv",
+                    "name": "Объем полосы легитимного трафика",
+                    "value": "30",
+                    "unitText": "Tbit"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:subdomain",
+                    "name": "Защита поддоменов",
+                    "value": "Безлимитно"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:ssl",
+                    "name": "SSL-сертификат",
+                    "value": true
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:cdn",
+                    "name": "Сеть CDN",
+                    "value": true
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:dns",
+                    "name": "Сеть DNS",
+                    "value": true
+                },
+                {
+                    "@type": "PropertyValue",
+                    "@id": "urn:ddosguard:ru:spec:sup24",
+                    "name": "Круглосуточная техподдержка (24/7)",
+                    "value": true
+                }
+            ],
+            "hasVariant": [
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:web-protection:basic",
+                    "name": "Защита сайта -- Тариф basic",
+                    "description": "Базовая очистка WEB трафика.",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "8000",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                },
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:web-protection:normal",
+                    "name": "Защита сайта -- Тариф Normal",
+                    "description": "Автоматическая очистка WEB трафика с ручной настройкой безопасности. До 5 правил защиты (геоблокировки и списков IP)",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "20000",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                },
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:web-protection:medium",
+                    "name": "Защита сайта -- Тариф Medium",
+                    "description": "Автоматическая очистка WEB трафика + базовый WAF с сигнатурным анализом. До 20 правил защиты (геоблокировки и списков IP).",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "48000",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                },
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:web-protection:premium",
+                    "name": "Защита сайта -- Тариф Premium",
+                    "description": "Автоматическая очистка WEB трафика + продвинутый WAF (кастомные правила, защита от брутфорса, управление ложными срабатываниями). До 50 правил защиты (геоблокировки и списков IP)",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "80000",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                },
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:web-protection:enterprise",
+                    "name": "Защита сайта -- Тариф Enterprise",
+                    "description": "Автоматическая очистка WEB трафика + WAF с индивидуальным обучением под логику WEB-приложения, персональный разбор инцидентов. Безлимитные правила защиты (геоблокировки и списков IP)",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "200000",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                }
+            ],
+            "review": [
+                {
+                    "@type": "Review",
+                    "reviewBody": "Взяли базовый тариф, довольны. Справляется с задачами. Если будет нужно, то перейдем на более расширенный тариф, но пока все ок. Атаки на сайт хорошо отражаются, защита хорошая, своих денег стоит",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Азамат Халяпов"
+                    },
+                    "sourceOrganization": {
+                        "@type": "Organization",
+                        "name": "Google Business Profile"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    }
+                },
+                {
+                    "@type": "Review",
+                    "reviewBody": "Предлагают адекватные методы и способы защиты. Подходят индивидуально, по крайней мере, можно обратиться за консультацией при заказе услуги. И разобраться помогут, и на вопросы ответят!",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Владислав"
+                    },
+                    "sourceOrganization": {
+                        "@type": "Organization",
+                        "name": "Google Business Profile"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    }
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "bestRating": 5,
+                "worstRating": 5,
+                "ratingValue": 4.8,
+                "reviewCount": 148
+            }
+        }
+    ]
+}

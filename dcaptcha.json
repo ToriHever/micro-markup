@@ -1,0 +1,144 @@
+{
+    "@context": "https://schema.org/",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/dcaptcha#webpage",
+            "url": "https://ddos-guard.ru/dcaptcha",
+            "name": "dCAPTCHA -- капча для защиты сайта от спама",
+            "inLanguage": "ru-RU",
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:dcaptcha"
+            },
+            "isPartOf": {
+                "@type": "WebSite",
+                "@id": "urn:ddosguard:ru:site"
+            }
+        },
+        {
+            "@type": "ProductGroup",
+            "@id": "urn:ddosguard:ru:dcaptcha",
+            "productGroupID": "dcaptcha",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/dcaptcha#webpage"
+            },
+            "name": "Капча для сайта: защита от спама",
+            "description": "dCAPTCHA -- cервис верификации запросов для защиты сайтовот спама и автоматизированных скриптов",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "urn:ddosguard:ru:dcaptcha:img",
+                "url": "https://ddos-guard.net/uploads/new_logo_square_1_e611d1c68e.svg",
+                "width": 512,
+                "height": 512
+            },
+            "brand": {
+                "@type": "Organization",
+                "@id": "urn:ddosguard:ru:org",
+                "name": "DDoS-Guard"
+            },
+            "category": "Защита от спама",
+            "variesBy": [
+                "https://schema.org/name"
+            ],
+            "hasVariant": [
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:dcaptcha:base",
+                    "name": "Базовый",
+                    "description": "Капча для личного сайта или защиты небольших веб-приложений. Можно пользоваться полностью бесплатно или доплачивать за перерасход.",
+                    "image": {
+                        "@id": "urn:ddosguard:ru:dcaptcha:img"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                },
+                {
+                    "@type": "Product",
+                    "@id": "urn:ddosguard:ru:dcaptcha:business",
+                    "name": "Бизнес",
+                    "description": "Капча для проверки большого количества запросов. Базовый лимит увеличен, стоимость дополнительных прохождений ниже",
+                    "image": {
+                        "@id": "urn:ddosguard:ru:dcaptcha:img"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "30000",
+                        "priceCurrency": "RUB",
+                        "availability": "https://schema.org/InStock"
+                    }
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "bestRating": 5,
+                "worstRating": 1,
+                "ratingValue": 4.8,
+                "reviewCount": 168
+            }
+        },
+        {
+            "@type": "HowTo",
+            "name": "Как установить dCAPTCHA на сайт",
+            "step": [
+                {
+                    "@type": "HowToStep",
+                    "position": 1,
+                    "name": "Создайте капчу",
+                    "text": "Подключите услугу и создайте первый ключ dCAPTCHA в личном кабинете",
+                    "url": "link"
+                },
+                {
+                    "@type": "HowToStep",
+                    "position": 2,
+                    "name": "Встройте скрипт",
+                    "text": "Встройте dCAPTCHA в форму на сайте или настройте скрипт для работы через AJAX",
+                    "url": "link"
+                },
+                {
+                    "@type": "HowToStep",
+                    "position": 3,
+                    "name": "Добавьте обработчик",
+                    "text": "Настройте на бэкенде отправку события на сервер DDoS-Guard и обработку ответа",
+                    "url": "link"
+                },
+                {
+                    "@type": "HowToStep",
+                    "position": 4,
+                    "name": "Готово!",
+                    "text": "Управляйте dCAPTCHA и отслеживайте статистику прохождений в личном кабинете",
+                    "url": "link"
+                }
+            ],
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/dcaptcha#webpage"
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Главная",
+                    "item": "https://ddos-guard.ru/dcaptcha"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "dCaptcha",
+                    "item": "https://ddos-guard.ru/dcaptcha"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "🔥 Бесплатный тариф",
+                    "item": "https://ddos-guard.ru/dcaptcha#tarif"
+                }
+            ]
+        }
+    ]
+}

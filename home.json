@@ -1,0 +1,231 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "urn:ddosguard:ru:site",
+            "url": "https://ddos-guard.ru/",
+            "name": "DDoS-Guard",
+            "inLanguage": "ru-RU"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/#webpage",
+            "url": "https://ddos-guard.ru/",
+            "name": "DDoS-Guard -- защита от DDoS-атак и облачная безопасность",
+            "isPartOf": {
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "about": {
+                "@id": "urn:ddosguard:ru:org"
+            }
+        },
+        {
+            "@type": "Organization",
+            "@id": "urn:ddosguard:ru:org",
+            "name": "DDoS-Guard",
+            "mainEntityOfPage": {
+                "@type": "AboutPage",
+                "@id": "https://ddos-guard.ru/about-us#aboutpage"
+            },
+            "subjectOf": [
+                {
+                    "@type": "ContactPage",
+                    "@id": "https://ddos-guard.ru/contacts#contactpage"
+                }
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://ddos-guard.ru/logo.png",
+                "width": 512,
+                "height": 512
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer support",
+                "telephone": "+78003331763",
+                "email": "info@ddos-guard.net",
+                "url": "https://ddos-guard.ru/contacts"
+            }
+        },
+        {
+            "@type": "VideoObject",
+            "description": "Самое важное о сервисах DDoS-Guard за минуту",
+            "duration": "PT1M27S",
+            "name": "Видео о сервисах защиты DDoS-Guard",
+            "thumbnailUrl": "https://ddos-guard.net/file/ddos_guard_cover.jpg",
+            "uploadDate": "2025-05-30T00:00:00+03:00",
+            "contentUrl": "https://ddos-guard.net/file/ddos_guard.mp4",
+            "embedUrl": "https://ddos-guard.net/file/ddos_guard.mp4",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/#webpage"
+            }
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "@id": "urn:ddosguard:ru:nav:main",
+            "isPartOf": {
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "name": "Главное меню",
+            "hasPart": [
+                {
+                    "@type": "WebPage",
+                    "name": "Защита сайта",
+                    "description": "Фильтрация DDoS-атак на уровне L7 OSI, управление трафиком и бесплатный CDN",
+                    "url": "https://ddos-guard.ru/web-protection"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Защита сети",
+                    "description": "Защита инфраструктуры сети на уровнях L3‑L7 OSI и оптимальная маршрутизация трафика",
+                    "url": "https://ddos-guard.ru/network-protection"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Хостинг",
+                    "description": "Размещение сайта на защищенных серверах DDoS‑Guard и бесплатный CDN",
+                    "url": "https://ddos-guard.ru/hosting"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "VDS/VPS",
+                    "description": "Виртуальный выделенный сервер с защитой от DDoS-атак",
+                    "url": "https://ddos-guard.ru/vds-vps"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Выделенный сервер",
+                    "description": "Физический сервер в дата-центре Tier III с защитой от DDoS-атак",
+                    "url": "https://ddos-guard.ru/server"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Анализ защищенности",
+                    "description": "Аудит безопасности сайта или инфраструктуры с рекомендациями по устранению уязвимостей",
+                    "url": "https://ddos-guard.ru/security-audit"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Управление уязвимостями",
+                    "description": "Сервис контроля уязвимостей и мониторинга защищенности IT-активов",
+                    "url": "https://ddos-guard.ru/security-audit/vulnerability-management"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Инструкции",
+                    "description": "Подробная информация о подключении и настройке сервисов защиты DDoS-Guard",
+                    "url": "https://ddos-guard.ru/tutorials"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Термины",
+                    "description": "Значения используемых нами терминов, которые помогут лучше ориентироваться в области DDoS-защиты",
+                    "url": "https://ddos-guard.ru/terms"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Технологии",
+                    "description": "Краткое описание технологий, на которых построены наши разработки",
+                    "url": "https://ddos-guard.ru/technologies"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Модель OSI",
+                    "description": "Сетевая модель стека сетевых протоколов OSI и визуализация воздействия вредоносного трафика",
+                    "url": "https://ddos-guard.ru/osi-model"
+                },
+                {
+                    "@type": "AboutPage",
+                    "name": "О нас",
+                    "description": "DDoS-Guard -- эксперт в сфере защиты от DDoS-атак с 2011 года",
+                    "url": "https://ddos-guard.ru/about-us"
+                },
+                {
+                    "@type": "ContactPage",
+                    "name": "Контакты",
+                    "description": "Номера телефонов горячей линии и реквизиты DDoS-Guard",
+                    "url": "https://ddos-guard.ru/contacts"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Работа в DDoS-Guard",
+                    "description": "Стань частью команды, которая делает интернет безопаснее",
+                    "url": "https://ddos-guard.ru/careers"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "СМИ о нас",
+                    "description": "Публикации о нашей компании, интервью и другие материалы",
+                    "url": "https://ddos-guard.ru/media"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Кейсы",
+                    "description": "Статьи о том, как наши продукты помогают клиентам защитить ресурсы от DDoS-атак",
+                    "url": "https://ddos-guard.ru/case-studies"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Презентации",
+                    "description": "Презентации услуг по защите от DDoS-атак и руководство для партнеров",
+                    "url": "https://ddos-guard.ru/presentations"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Пресс-центр",
+                    "description": "Значимые события в жизни DDoS-Guard, отчеты об атаках и обновления сервисов защиты",
+                    "url": "https://ddos-guard.ru/press"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Отчеты",
+                    "description": "Подробная информация о DDoS-атаках от экспертов DDoS-Guard",
+                    "url": "https://ddos-guard.ru/reports"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Радар",
+                    "description": "Собираем и показываем данные о DDoS-атаках в режиме реального времени",
+                    "url": "https://ddos-guard.ru/radar"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Партнерам",
+                    "url": "https://ddos-guard.ru/partnership"
+                },
+                {
+                    "@type": "CollectionPage",
+                    "name": "Блог",
+                    "url": "https://ddos-guard.ru/blog"
+                }
+            ]
+        },
+        {
+            "@type": "FAQPage",
+            "@id": "https://ddos-guard.ru/#faq",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/#webpage"
+            },
+            "headline": "Часто задаваемые вопросы",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "От каких атак защищают сервисы DDoS-Guard?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "DDoS-Guard защищает от наиболее популярных типов угроз на уровнях L3-L7 OSI: отражает флуд-атаки типа ICMP Flood, SYN Flood, UDP Flood и сессионные атаки на веб-ресурсы и приложения."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Как работает защита сети?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Выберите параметры тарифа в конфигураторе и нажмите «Подключить». Зарегистрируйтесь или войдите в личный кабинет. Задайте подходящие параметры сети в мастере настройки и оплатите услугу. Активируйте туннель и завершите настройку. Инструкция по подключению защиты сети."
+                    }
+                }
+            ]
+        }
+    ]
+}

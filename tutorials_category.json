@@ -1,0 +1,40 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "CollectionPage",
+            "@id": "https://ddos-guard.ru/tutorials/website-protection#collectionpage",
+            "url": "https://ddos-guard.ru/tutorials/website-protection",
+            "name": "Инструкции по защите сайта -- Категория",
+            "description": "В этом разделе собрали всю информацию об услуге и добавили инструкции по ее подключению и настройке, а также по работе с каждым отдельным функционалом.",
+            "isPartOf": {
+                "@id": "https://ddos-guard.ru/tutorials#collectionpage"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:tutorials:site-protection"
+            }
+        },
+        {
+            "@type": "CreativeWorkSeries",
+            "@id": "urn:ddosguard:ru:tutorials:site-protection",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/tutorials/website-protection#collectionpage"
+            },
+            "name": "Инструкции по защите сайта",
+            "hasPart": [
+                {
+                    "@type": "TechArticle",
+                    "@id": "urn:ddosguard:ru:tutorials:283",
+                    "name": "Как работает защита сайта",
+                    "url": "https://ddos-guard.ru/tutorials/website-protection/how-it-works"
+                },
+                {
+                    "@type": "TechArticle",
+                    "@id": "urn:ddosguard:ru:tutorials:290",
+                    "name": "Подключение и настройка защиты сайта",
+                    "url": "https://ddos-guard.ru/tutorials/website-protection/service-activation"
+                }
+            ]
+        }
+    ]
+}

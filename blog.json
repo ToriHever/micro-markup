@@ -1,0 +1,48 @@
+{
+    "@context": "https://schema.org/",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://ddos-guard.ru/blog#webpage",
+            "url": "https://ddos-guard.ru/blog",
+            "isPartOf": {
+                "@type": "WebSite",
+                "@id": "urn:ddosguard:ru:site"
+            },
+            "mainEntity": {
+                "@id": "urn:ddosguard:ru:blog"
+            }
+        },
+        {
+            "@type": "Blog",
+            "@id": "urn:ddosguard:ru:blog",
+            "mainEntityOfPage": {
+                "@id": "https://ddos-guard.ru/blog#webpage"
+            },
+            "name": "Блог DDoS-Guard | Всё о DDoS-атаках и не только",
+            "description": "Читайте экспертные статьи по кибербезопасности и защите от DDoS-угроз, а также последние новости и обновления в блоге компании DDoS-Guard",
+            "blogPost": [
+                {
+                    "@type": "BlogPosting",
+                    "@id": "urn:ddosguard:ru:art:578",
+                    "url": "https://ddos-guard.ru/blog/trebovaniya-k-ori-2026",
+                    "headline": "Требования к ОРИ в 2026: что изменилось для бизнеса",
+                    "name": "Требования к ОРИ в 2026: что изменилось для бизнеса",
+                    "description": "Нововведения для ОРИ в 2026 году. Ключевые изменения для организаторов распространения информации.",
+                    "datePublished": "2026-05-19T17:55:00+03:00",
+                    "dateModified": "2026-05-19T17:55:00+03:00"
+                },
+                {
+                    "@type": "BlogPosting",
+                    "@id": "urn:ddosguard:ru:art:576",
+                    "url": "https://ddos-guard.ru/blog/chto-takoe-oshibka-404",
+                    "headline": "Ошибка 404 на сайте: причины, поиск и способы устранения",
+                    "name": "Ошибка 404 на сайте: причины, поиск и способы устранения",
+                    "description": "Разбираем, что скрывается за ошибкой 404 (Not Found), а также что с ней делать",
+                    "datePublished": "2026-05-19T17:55:00+03:00",
+                    "dateModified": "2026-05-19T17:55:00+03:00"
+                }
+            ]
+        }
+    ]
+}
