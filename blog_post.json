@@ -27,7 +27,7 @@
             "dateModified": "2026-05-19T17:55:00+03:00",
             "author": {
                 "@type": "Person",
-                "@id": "urn:ddosguard:ru:aut:valeria",
+                "@id": "urn:ddosguard:ru:aut:4",
                 "url": "https://ddos-guard.ru/author/Valeria",
                 "name": "Валерия Егорова"
             },

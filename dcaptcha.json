@@ -124,7 +124,7 @@
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Главная",
-                    "item": "https://ddos-guard.ru/dcaptcha"
+                    "item": "https://ddos-guard.ru/"
                 },
                 {
                     "@type": "ListItem",

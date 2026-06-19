@@ -23,7 +23,7 @@
             "inLanguage": "ru-RU",
             "author": {
                 "@type": "Person",
-                "@id": "urn:ddosguard:ru:aut:org",
+                "@id": "urn:ddosguard:ru:aut:20",
                 "url": "https://ddos-guard.ru/author/org",
                 "name": "DDoS-Guard"
             },

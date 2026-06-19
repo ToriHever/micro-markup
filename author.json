@@ -3,7 +3,7 @@
     "@graph": [
         {
             "@type": "Person",
-            "@id": "urn:ddosguard:ru:aut:org",
+            "@id": "urn:ddosguard:ru:aut:20",
             "name": "DDoS-Guard",
             "image": "https://ddos-guard.net/uploads/495052762_b67e63960a.jpeg",
             "jobTitle": "Команда DDoS-Guard",
