@@ -47,7 +47,11 @@
                     "name": "Базовый",
                     "description": "Капча для личного сайта или защиты небольших веб-приложений. Можно пользоваться полностью бесплатно или доплачивать за перерасход.",
                     "image": {
-                        "@id": "urn:ddosguard:ru:dcaptcha:img"
+                        "@type": "ImageObject",
+                        "@id": "urn:ddosguard:ru:dcaptcha:img",
+                        "url": "https://ddos-guard.net/uploads/new_logo_square_1_e611d1c68e.svg",
+                        "width": 512,
+                        "height": 512
                     },
                     "offers": {
                         "@type": "Offer",
@@ -62,7 +66,11 @@
                     "name": "Бизнес",
                     "description": "Капча для проверки большого количества запросов. Базовый лимит увеличен, стоимость дополнительных прохождений ниже",
                     "image": {
-                        "@id": "urn:ddosguard:ru:dcaptcha:img"
+                        "@type": "ImageObject",
+                        "@id": "urn:ddosguard:ru:dcaptcha:img",
+                        "url": "https://ddos-guard.net/uploads/new_logo_square_1_e611d1c68e.svg",
+                        "width": 512,
+                        "height": 512
                     },
                     "offers": {
                         "@type": "Offer",
