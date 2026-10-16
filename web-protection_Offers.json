@@ -113,7 +113,404 @@
                             "@type": "Product",
                             "name": "Защита сайта «Basic»",
                             "size": "Basic",
-                            "sku": "web-protection-basic"
+                            "sku": "web-protection-basic",
+                            "disambiguatingDescription": "Базовая защита для старта",
+                            "additionalProperty": [
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Домены под защитой",
+                                    "value": 1,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Доменов со связанными поддоменами",
+                                    "value": 0,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Связанных поддоменов для 1 домена",
+                                    "value": 0,
+                                    "unitText": "поддоменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Выделенный IP-адрес",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Поддержка веб-сокетов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Глобальная трансляция DNS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Управление DNS записями",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Объем легитимного трафика",
+                                    "maxValue": 30,
+                                    "unitText": "ТБ/мес"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит правил выдачи бесплатных SSL",
+                                    "value": 10,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Максимальный период событий бесплатных SSL",
+                                    "value": 14,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Возможность скачать бесплатный SSL",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Уведомления о сроках жизни SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Пользовательский SSL-сертификат",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Выбор минимальной версии TLS",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Настройка шифров SSL",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит пользовательского набора шифров",
+                                    "value": 0,
+                                    "unitText": "шифров"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка шифрования до SSL/TLS 1.3",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка OCSP Stapling",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых IP-адресов",
+                                    "value": 1,
+                                    "unitText": "IP-адресов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Активная балансировка",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Пассивная балансировка (Round Robin, Hash, Rendezvous Hash)",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых серверов балансировки нагрузки",
+                                    "value": 1,
+                                    "unitText": "серверов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Логи активной балансировки",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Управление типом соединения с целевыми IP",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Гео-заголовок",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Сохранение Referer",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила сегментации домена",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила чувствительности защиты",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила защиты",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Геоблокировка",
+                                    "value": 10,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Управление легитимными ботами",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Черные списки",
+                                    "value": 3,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Белые списки",
+                                    "value": 3,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Блокировка TOR-сетей",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила лимита запросов (Rate Limiting)",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Максимальный интервал лимита запросов",
+                                    "value": 5,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Исключение для HTTP заголовка X-Whitelist-Header",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Индивидуальные корректировки фильтрации техподдержкой",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор протокола DDoS-Guard — веб-сервер клиента",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор типа CAPTCHA",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Включение/отключение кэширования",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Полная очистка кэша",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Лимит масок очистки кэша в день",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Поддержка HTTP/2 и SPDY",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Максимальный уровень сжатия Gzip/Brotli",
+                                    "value": "Optimal"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Эвристическая рекомпрессия",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Кастомные страницы",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Триггеры (уведомления об инцидентах)",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Группы правил",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Лимит объектов в группах правил",
+                                    "value": 2,
+                                    "unitText": "объектов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Управление через API",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Доступ к разделу Атаки",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Список атак L7",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Тепловая карта запросов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Графики запросов, ТОПов и TTFB",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: График версий TLS",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период графиков статистики",
+                                    "value": 7,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период ТОПов статистики",
+                                    "value": 1,
+                                    "unitText": "час"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по трафику за выбранный период",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по атакам за выбранный период",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Подробные отчеты об атаках L7",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период детализации атак",
+                                    "value": 60,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Время ответа техподдержки",
+                                    "maxValue": 2,
+                                    "unitText": "часов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: История обращений в техническую поддержку",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Публичная пользовательская документация",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Поддержка в мессенджерах",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Возможность заключения договора",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Выделенный аккаунт-менеджер",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение антибота (Bot Mitigation)",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение WAF",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Дополнительный защищенный IP-адрес (в месяц)",
+                                    "minValue": 10000,
+                                    "maxValue": 10000,
+                                    "unitText": "RUB"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Защита IP-адреса/сети по BGP",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Изменение защищенного IP-адреса (разово)",
+                                    "minValue": 4000,
+                                    "maxValue": 4000,
+                                    "unitText": "RUB"
+                                }
+                            ]
+                        },
+                        "priceSpecification": {
+                            "@type": "UnitPriceSpecification",
+                            "price": 8000,
+                            "priceCurrency": "RUB",
+                            "unitCode": "MON",
+                            "billingDuration": 1
                         }
                     },
                     {
@@ -129,7 +526,408 @@
                             "@type": "Product",
                             "name": "Защита сайта «Normal»",
                             "size": "Normal",
-                            "sku": "web-protection-normal"
+                            "sku": "web-protection-normal",
+                            "disambiguatingDescription": "Расширенный набор функций для защиты одного домена",
+                            "additionalProperty": [
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Домены под защитой",
+                                    "value": 1,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Доменов со связанными поддоменами",
+                                    "value": 0,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Связанных поддоменов для 1 домена",
+                                    "value": 0,
+                                    "unitText": "поддоменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Выделенный IP-адрес",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Поддержка веб-сокетов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Глобальная трансляция DNS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Управление DNS записями",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Объем легитимного трафика",
+                                    "maxValue": 250,
+                                    "unitText": "ТБ/мес"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит правил выдачи бесплатных SSL",
+                                    "value": 30,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Максимальный период событий бесплатных SSL",
+                                    "value": 30,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Возможность скачать бесплатный SSL",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Уведомления о сроках жизни SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Пользовательский SSL-сертификат",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Выбор минимальной версии TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Настройка шифров SSL",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит пользовательского набора шифров",
+                                    "value": 0,
+                                    "unitText": "шифров"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка шифрования до SSL/TLS 1.3",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка OCSP Stapling",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых IP-адресов",
+                                    "value": 2,
+                                    "unitText": "IP-адресов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Активная балансировка",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Пассивная балансировка (Round Robin, Hash, Rendezvous Hash)",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых серверов балансировки нагрузки",
+                                    "value": 2,
+                                    "unitText": "серверов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Логи активной балансировки",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Управление типом соединения с целевыми IP",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Гео-заголовок",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Сохранение Referer",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила сегментации домена",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила чувствительности защиты",
+                                    "value": 1,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила защиты",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Геоблокировка",
+                                    "value": 20,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Управление легитимными ботами",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Черные списки",
+                                    "value": 5,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Белые списки",
+                                    "value": 5,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Блокировка TOR-сетей",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила лимита запросов (Rate Limiting)",
+                                    "value": 2,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Максимальный интервал лимита запросов",
+                                    "value": 5,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Исключение для HTTP заголовка X-Whitelist-Header",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Индивидуальные корректировки фильтрации техподдержкой",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор протокола DDoS-Guard — веб-сервер клиента",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор типа CAPTCHA",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Включение/отключение кэширования",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Полная очистка кэша",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Лимит масок очистки кэша в день",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Поддержка HTTP/2 и SPDY",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Максимальный уровень сжатия Gzip/Brotli",
+                                    "value": "Optimal"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Эвристическая рекомпрессия",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Кастомные страницы",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Триггеры (уведомления об инцидентах)",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Группы правил",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Лимит объектов в группах правил",
+                                    "value": 2,
+                                    "unitText": "объектов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Управление через API",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Доступ к разделу Атаки",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Список атак L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Тепловая карта запросов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Графики запросов, ТОПов и TTFB",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: График версий TLS",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период графиков статистики",
+                                    "value": 30,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период ТОПов статистики",
+                                    "value": 3,
+                                    "unitText": "часа"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по трафику за выбранный период",
+                                    "value": 62,
+                                    "unitText": "дня"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по атакам за выбранный период",
+                                    "value": 45,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Подробные отчеты об атаках L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период детализации атак",
+                                    "value": 60,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Время ответа техподдержки",
+                                    "maxValue": 40,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: История обращений в техническую поддержку",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Публичная пользовательская документация",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Поддержка в мессенджерах",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Возможность заключения договора",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Выделенный аккаунт-менеджер",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение антибота (Bot Mitigation)",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение WAF",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Дополнительный защищенный IP-адрес (в месяц)",
+                                    "minValue": 10000,
+                                    "maxValue": 10000,
+                                    "unitText": "RUB"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Защита IP-адреса/сети по BGP",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Изменение защищенного IP-адреса (разово)",
+                                    "minValue": 4000,
+                                    "maxValue": 4000,
+                                    "unitText": "RUB"
+                                }
+                            ]
+                        },
+                        "priceSpecification": {
+                            "@type": "UnitPriceSpecification",
+                            "price": 20000,
+                            "priceCurrency": "RUB",
+                            "unitCode": "MON",
+                            "billingDuration": 1
                         }
                     },
                     {
@@ -145,7 +943,410 @@
                             "@type": "Product",
                             "name": "Защита сайта «Medium»",
                             "size": "Medium",
-                            "sku": "web-protection-medium"
+                            "sku": "web-protection-medium",
+                            "disambiguatingDescription": "«Золотая середина» с большинством опций",
+                            "additionalProperty": [
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Домены под защитой",
+                                    "value": 3,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Доменов со связанными поддоменами",
+                                    "value": 1,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Связанных поддоменов для 1 домена",
+                                    "value": 1,
+                                    "unitText": "поддоменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Выделенный IP-адрес",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Поддержка веб-сокетов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Глобальная трансляция DNS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Управление DNS записями",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Объем легитимного трафика",
+                                    "maxValue": 500,
+                                    "unitText": "ТБ/мес"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит правил выдачи бесплатных SSL",
+                                    "value": 50,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Максимальный период событий бесплатных SSL",
+                                    "value": 60,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Возможность скачать бесплатный SSL",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Уведомления о сроках жизни SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Пользовательский SSL-сертификат",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Выбор минимальной версии TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Настройка шифров SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит пользовательского набора шифров",
+                                    "value": 100,
+                                    "unitText": "шифров"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка шифрования до SSL/TLS 1.3",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка OCSP Stapling",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых IP-адресов",
+                                    "value": 5,
+                                    "unitText": "IP-адресов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Активная балансировка",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Пассивная балансировка (Round Robin, Hash, Rendezvous Hash)",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых серверов балансировки нагрузки",
+                                    "value": 5,
+                                    "unitText": "серверов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Логи активной балансировки",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Управление типом соединения с целевыми IP",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Гео-заголовок",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Сохранение Referer",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила сегментации домена",
+                                    "value": 15,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила чувствительности защиты",
+                                    "value": 1,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила защиты",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Геоблокировка",
+                                    "value": 15,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Управление легитимными ботами",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Черные списки",
+                                    "value": 30,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Белые списки",
+                                    "value": 30,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Блокировка TOR-сетей",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила лимита запросов (Rate Limiting)",
+                                    "value": 7,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Максимальный интервал лимита запросов",
+                                    "value": 20,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Исключение для HTTP заголовка X-Whitelist-Header",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Индивидуальные корректировки фильтрации техподдержкой",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор протокола DDoS-Guard — веб-сервер клиента",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор типа CAPTCHA",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Включение/отключение кэширования",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Полная очистка кэша",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Лимит масок очистки кэша в день",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Поддержка HTTP/2 и SPDY",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Максимальный уровень сжатия Gzip/Brotli",
+                                    "value": "Optimal"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Эвристическая рекомпрессия",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Кастомные страницы",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Триггеры (уведомления об инцидентах)",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Группы правил",
+                                    "value": 1,
+                                    "unitText": "групп"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Лимит объектов в группах правил",
+                                    "value": 3,
+                                    "unitText": "объектов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Управление через API",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Доступ к разделу Атаки",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Список атак L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Тепловая карта запросов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Графики запросов, ТОПов и TTFB",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: График версий TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период графиков статистики",
+                                    "value": 6,
+                                    "unitText": "месяцев"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период ТОПов статистики",
+                                    "value": 3,
+                                    "unitText": "часа"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по трафику за выбранный период",
+                                    "value": 62,
+                                    "unitText": "дня"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по атакам за выбранный период",
+                                    "value": 91,
+                                    "unitText": "день"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Подробные отчеты об атаках L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период детализации атак",
+                                    "value": 91,
+                                    "unitText": "день"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Время ответа техподдержки",
+                                    "maxValue": 30,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: История обращений в техническую поддержку",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Публичная пользовательская документация",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Поддержка в мессенджерах",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Возможность заключения договора",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Выделенный аккаунт-менеджер",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение антибота (Bot Mitigation)",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение WAF",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Дополнительный защищенный IP-адрес (в месяц)",
+                                    "minValue": 10000,
+                                    "maxValue": 10000,
+                                    "unitText": "RUB"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Защита IP-адреса/сети по BGP",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Изменение защищенного IP-адреса (разово)",
+                                    "minValue": 4000,
+                                    "maxValue": 4000,
+                                    "unitText": "RUB"
+                                }
+                            ]
+                        },
+                        "priceSpecification": {
+                            "@type": "UnitPriceSpecification",
+                            "price": 48000,
+                            "priceCurrency": "RUB",
+                            "unitCode": "MON",
+                            "billingDuration": 1
                         }
                     },
                     {
@@ -161,7 +1362,412 @@
                             "@type": "Product",
                             "name": "Защита сайта «Premium»",
                             "size": "Premium",
-                            "sku": "web-protection-premium"
+                            "sku": "web-protection-premium",
+                            "disambiguatingDescription": "Много включенных опций и большие лимиты",
+                            "additionalProperty": [
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Домены под защитой",
+                                    "value": 5,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Доменов со связанными поддоменами",
+                                    "value": 3,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Связанных поддоменов для 1 домена",
+                                    "value": 3,
+                                    "unitText": "поддоменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Выделенный IP-адрес",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Поддержка веб-сокетов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Глобальная трансляция DNS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Управление DNS записями",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Объем легитимного трафика",
+                                    "maxValue": 1,
+                                    "unitText": "ПБ/мес"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит правил выдачи бесплатных SSL",
+                                    "value": 80,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Максимальный период событий бесплатных SSL",
+                                    "value": 90,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Возможность скачать бесплатный SSL",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Уведомления о сроках жизни SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Пользовательский SSL-сертификат",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Выбор минимальной версии TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Настройка шифров SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит пользовательского набора шифров",
+                                    "value": 100,
+                                    "unitText": "шифров"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка шифрования до SSL/TLS 1.3",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка OCSP Stapling",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых IP-адресов",
+                                    "value": 10,
+                                    "unitText": "IP-адресов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Активная балансировка",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Пассивная балансировка (Round Robin, Hash, Rendezvous Hash)",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых серверов балансировки нагрузки",
+                                    "value": 10,
+                                    "unitText": "серверов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Логи активной балансировки",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Управление типом соединения с целевыми IP",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Гео-заголовок",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Сохранение Referer",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила сегментации домена",
+                                    "value": 30,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила чувствительности защиты",
+                                    "value": 3,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила защиты",
+                                    "value": 10,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Геоблокировка",
+                                    "value": 30,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Управление легитимными ботами",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Черные списки",
+                                    "value": 50,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Белые списки",
+                                    "value": 50,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Блокировка TOR-сетей",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила лимита запросов (Rate Limiting)",
+                                    "value": 15,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Максимальный интервал лимита запросов",
+                                    "value": 40,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Исключение для HTTP заголовка X-Whitelist-Header",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Индивидуальные корректировки фильтрации техподдержкой",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор протокола DDoS-Guard — веб-сервер клиента",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор типа CAPTCHA",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Включение/отключение кэширования",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Полная очистка кэша",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Лимит масок очистки кэша в день",
+                                    "value": 40,
+                                    "unitText": "масок/сутки"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Поддержка HTTP/2 и SPDY",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Максимальный уровень сжатия Gzip/Brotli",
+                                    "value": "Optimal"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Эвристическая рекомпрессия",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Кастомные страницы",
+                                    "value": "Доп. платная опция"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Триггеры (уведомления об инцидентах)",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Группы правил",
+                                    "value": 2,
+                                    "unitText": "групп"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Лимит объектов в группах правил",
+                                    "value": 5,
+                                    "unitText": "объектов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Управление через API",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Доступ к разделу Атаки",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Список атак L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Тепловая карта запросов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Графики запросов, ТОПов и TTFB",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: График версий TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период графиков статистики",
+                                    "value": 1,
+                                    "unitText": "год"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период ТОПов статистики",
+                                    "value": 1,
+                                    "unitText": "день"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по трафику за выбранный период",
+                                    "value": 93,
+                                    "unitText": "дня"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по атакам за выбранный период",
+                                    "value": 182,
+                                    "unitText": "дня"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Подробные отчеты об атаках L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период детализации атак",
+                                    "value": 182,
+                                    "unitText": "дня"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Время ответа техподдержки",
+                                    "maxValue": 15,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: История обращений в техническую поддержку",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Публичная пользовательская документация",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Поддержка в мессенджерах",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Возможность заключения договора",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Выделенный аккаунт-менеджер",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение антибота (Bot Mitigation)",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение WAF",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Дополнительный защищенный IP-адрес (в месяц)",
+                                    "minValue": 10000,
+                                    "maxValue": 10000,
+                                    "unitText": "RUB"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Защита IP-адреса/сети по BGP",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Изменение защищенного IP-адреса (разово)",
+                                    "minValue": 4000,
+                                    "maxValue": 4000,
+                                    "unitText": "RUB"
+                                }
+                            ]
+                        },
+                        "priceSpecification": {
+                            "@type": "UnitPriceSpecification",
+                            "price": 80000,
+                            "priceCurrency": "RUB",
+                            "unitCode": "MON",
+                            "billingDuration": 1
                         }
                     },
                     {
@@ -177,7 +1783,411 @@
                             "@type": "Product",
                             "name": "Защита сайта «Enterprise»",
                             "size": "Enterprise",
-                            "sku": "web-protection-enterprise"
+                            "sku": "web-protection-enterprise",
+                            "disambiguatingDescription": "Максимальный набор опций с возможностью индивидуальной разработки",
+                            "additionalProperty": [
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Домены под защитой",
+                                    "minValue": 10,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Доменов со связанными поддоменами",
+                                    "value": 5,
+                                    "unitText": "доменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Связанных поддоменов для 1 домена",
+                                    "value": 5,
+                                    "unitText": "поддоменов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Выделенный IP-адрес",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Поддержка веб-сокетов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Глобальная трансляция DNS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Управление DNS записями",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Общие параметры: Объем легитимного трафика",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит правил выдачи бесплатных SSL",
+                                    "value": 100,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Максимальный период событий бесплатных SSL",
+                                    "value": 90,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Возможность скачать бесплатный SSL",
+                                    "value": false
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Уведомления о сроках жизни SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Пользовательский SSL-сертификат",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Выбор минимальной версии TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Настройка шифров SSL",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Лимит пользовательского набора шифров",
+                                    "value": 100,
+                                    "unitText": "шифров"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка шифрования до SSL/TLS 1.3",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "SSL: Поддержка OCSP Stapling",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых IP-адресов",
+                                    "value": 20,
+                                    "unitText": "IP-адресов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Активная балансировка",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Пассивная балансировка (Round Robin, Hash, Rendezvous Hash)",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Лимит целевых серверов балансировки нагрузки",
+                                    "value": 20,
+                                    "unitText": "серверов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Логи активной балансировки",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Управление типом соединения с целевыми IP",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Гео-заголовок",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Проксирование: Сохранение Referer",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила сегментации домена",
+                                    "value": 50,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила чувствительности защиты",
+                                    "value": 5,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила защиты",
+                                    "value": 20,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Геоблокировка",
+                                    "value": 50,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Управление легитимными ботами",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Черные списки",
+                                    "value": 100,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Белые списки",
+                                    "value": 100,
+                                    "unitText": "записей"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Блокировка TOR-сетей",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Правила лимита запросов (Rate Limiting)",
+                                    "value": 25,
+                                    "unitText": "правил"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Максимальный интервал лимита запросов",
+                                    "value": 60,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Исключение для HTTP заголовка X-Whitelist-Header",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Индивидуальные корректировки фильтрации техподдержкой",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор протокола DDoS-Guard — веб-сервер клиента",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Обработка трафика и тонкая настройка: Выбор типа CAPTCHA",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Включение/отключение кэширования",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Полная очистка кэша",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Лимит масок очистки кэша в день",
+                                    "value": 100,
+                                    "unitText": "масок/сутки"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Поддержка HTTP/2 и SPDY",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Максимальный уровень сжатия Gzip/Brotli",
+                                    "value": "Optimal"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "CDN и кэширование: Эвристическая рекомпрессия",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Кастомные страницы",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Триггеры (уведомления об инцидентах)",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Группы правил",
+                                    "value": 3,
+                                    "unitText": "групп"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Лимит объектов в группах правил",
+                                    "value": 10,
+                                    "unitText": "объектов"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Удобство: Управление через API",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Доступ к разделу Атаки",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Список атак L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Тепловая карта запросов",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Графики запросов, ТОПов и TTFB",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: График версий TLS",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период графиков статистики",
+                                    "value": 1,
+                                    "unitText": "год"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период ТОПов статистики",
+                                    "value": 1,
+                                    "unitText": "день"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по трафику за выбранный период",
+                                    "value": 93,
+                                    "unitText": "дня"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Отчет по атакам за выбранный период",
+                                    "value": 365,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Подробные отчеты об атаках L7",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Статистика и отчеты: Максимальный период детализации атак",
+                                    "value": 365,
+                                    "unitText": "дней"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Время ответа техподдержки",
+                                    "maxValue": 10,
+                                    "unitText": "минут"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: История обращений в техническую поддержку",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Публичная пользовательская документация",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Поддержка в мессенджерах",
+                                    "value": "По запросу"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Возможность заключения договора",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Техподдержка и обслуживание: Выделенный аккаунт-менеджер",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение антибота (Bot Mitigation)",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Подключение WAF",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Дополнительный защищенный IP-адрес (в месяц)",
+                                    "minValue": 10000,
+                                    "maxValue": 10000,
+                                    "unitText": "RUB"
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Защита IP-адреса/сети по BGP",
+                                    "value": true
+                                },
+                                {
+                                    "@type": "PropertyValue",
+                                    "name": "Дополнительный функционал: Изменение защищенного IP-адреса (разово)",
+                                    "minValue": 4000,
+                                    "maxValue": 4000,
+                                    "unitText": "RUB"
+                                }
+                            ]
+                        },
+                        "priceSpecification": {
+                            "@type": "UnitPriceSpecification",
+                            "price": 200000,
+                            "priceCurrency": "RUB",
+                            "unitCode": "MON",
+                            "billingDuration": 1
                         }
                     }
                 ]
