@@ -1,0 +1,296 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "SiteNavigationElement",
+        "name": "Главное навигационное меню",
+        "hasPart": [
+            {
+                "@type": "WebPage",
+                "name": "Продукты и решения",
+                "hasPart": [
+                    {
+                        "@type": "WebPage",
+                        "name": "Защита от DDoS-атак",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "Защита сайта",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/web-protection"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Защита сети",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/network-protection"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Облачные решения",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "Хостинг",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/hosting"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "VDS/VPS",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/vds-vps"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Выделенный сервер",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/server"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Анализ защищенности",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "Анализ защищенности",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/security-audit"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Управление уязвимостями",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/security-audit/vulnerability-management"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Другие решения",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "Решения для ОРИ",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/ori"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Защита от ботов",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/bot-mitigation"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "WAF",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/waf"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "name": "База знаний",
+                "hasPart": [
+                    {
+                        "@type": "WebPage",
+                        "name": "Инструкции",
+                        "url": "http://gondarev.web-dev.ddos-guard.ru/tutorials"
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Термины",
+                        "url": "http://gondarev.web-dev.ddos-guard.ru/terms"
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Технологии",
+                        "url": "http://gondarev.web-dev.ddos-guard.ru/technologies"
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Модель OSI",
+                        "url": "http://gondarev.web-dev.ddos-guard.ru/osi-model"
+                    }
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "name": "О компании",
+                "hasPart": [
+                    {
+                        "@type": "WebPage",
+                        "name": "Компания",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "О нас",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/about-us"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Контакты",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/contacts"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Работа в DDoS-Guard",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/careers"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "СМИ о нас",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/media"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Клиентам",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "Кейсы",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/case-studies"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Презентации",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/presentations"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "WebPage",
+                        "name": "Для СМИ",
+                        "hasPart": [
+                            {
+                                "@type": "WebPage",
+                                "name": "Пресс-центр",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/press"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Отчеты",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/reports"
+                            },
+                            {
+                                "@type": "WebPage",
+                                "name": "Радар",
+                                "url": "http://gondarev.web-dev.ddos-guard.ru/radar"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "name": "Партнерам",
+                "url": "http://gondarev.web-dev.ddos-guard.ru/partnership"
+            },
+            {
+                "@type": "WebPage",
+                "name": "Блог",
+                "url": "http://gondarev.web-dev.ddos-guard.ru/blog"
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "http://gondarev.web-dev.ddos-guard.ru/blog/zagolovok-novogo-teksta-dlya-vnutrennej-mikrorazmetki#webpage",
+                "url": "http://gondarev.web-dev.ddos-guard.ru/blog/zagolovok-novogo-teksta-dlya-vnutrennej-mikrorazmetki",
+                "isPartOf": {
+                    "@type": "Blog",
+                    "@id": "urn:ddosguard:ru:blog"
+                },
+                "inLanguage": "ru",
+                "mainEntity": {
+                    "@id": "urn:ddosguard:ru:blog:306"
+                }
+            },
+            {
+                "@type": "BlogPosting",
+                "@id": "urn:ddosguard:ru:blog:306",
+                "mainEntityOfPage": {
+                    "@id": "http://gondarev.web-dev.ddos-guard.ru/blog/zagolovok-novogo-teksta-dlya-vnutrennej-mikrorazmetki#webpage"
+                },
+                "headline": "Заголовок нового теста для внутренней микроразметки",
+                "name": "Мета заголовок нового теста для внутренней микроразметки",
+                "description": "Мета описание нового теста для внутренней микроразметки",
+                "datePublished": "2026-10-20T21:00:00.000Z",
+                "dateModified": "2026-10-21T12:53:33.968Z",
+                "author": [
+                    {
+                        "@type": "Person",
+                        "@id": "urn:ddosguard:ru:aut:1",
+                        "name": "Ярослав Колган"
+                    }
+                ],
+                "publisher": {
+                    "@type": "Organization",
+                    "@id": "urn:ddosguard:ru:org",
+                    "name": "DDoS-Guard"
+                },
+                "image": {
+                    "@type": "ImageObject",
+                    "@id": "http://my.web-dev.ddos-guard.net/uploads/photo_2025_12_18_13_24_16_005e56afcb.jpg#imageobject",
+                    "url": "http://my.web-dev.ddos-guard.net/uploads/photo_2025_12_18_13_24_16_005e56afcb.jpg",
+                    "height": 800,
+                    "width": 1200
+                },
+                "isPartOf": {
+                    "@type": "Blog",
+                    "@id": "urn:ddosguard:ru:blog"
+                },
+                "wordCount": "56",
+                "about": [
+                    {
+                        "@type": "Thing",
+                        "name": "about ссылка ",
+                        "sameAs": [
+                            "https://www.itranslit.com/",
+                            "https://www.itranslit.com/",
+                            "https://www.itranslit.com/"
+                        ]
+                    }
+                ],
+                "mentions": [
+                    {
+                        "@type": "CreativeWork",
+                        "@id": "urn:ddosguard:ru:case:16"
+                    },
+                    {
+                        "@type": "BlogPosting",
+                        "@id": "urn:ddosguard:ru:blog:303"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Главная",
+                        "item": "/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Блог",
+                        "item": "/blog"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Заголовок нового теста для внутренней микроразметки"
+                    }
+                ]
+            }
+        ]
+    }
+]
