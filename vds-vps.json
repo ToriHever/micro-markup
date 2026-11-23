@@ -1,0 +1,582 @@
+    [
+        {
+            "@context": "https://schema.org",
+            "@type": "SiteNavigationElement",
+            "name": "Главное навигационное меню",
+            "hasPart": [
+                {
+                    "@type": "WebPage",
+                    "name": "Продукты и решения",
+                    "hasPart": [
+                        {
+                            "@type": "WebPage",
+                            "name": "Защита от DDoS-атак",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Защита сайта",
+                                    "url": "https://ddos-guard.ru/web-protection"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Защита сети",
+                                    "url": "https://ddos-guard.ru/network-protection"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Облачные решения",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Хостинг",
+                                    "url": "https://ddos-guard.ru/hosting"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "VDS/VPS",
+                                    "url": "https://ddos-guard.ru/vds-vps"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Выделенный сервер",
+                                    "url": "https://ddos-guard.ru/server"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Анализ защищенности",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Анализ защищенности",
+                                    "url": "https://ddos-guard.ru/security-audit"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Управление уязвимостями",
+                                    "url": "https://ddos-guard.ru/security-audit/vulnerability-management"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Другие решения",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Капча для сайта",
+                                    "url": "https://ddos-guard.ru/captcha"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Решения для ОРИ",
+                                    "url": "https://ddos-guard.ru/ori"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Защита от ботов",
+                                    "url": "https://ddos-guard.ru/bot-mitigation"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "WAF",
+                                    "url": "https://ddos-guard.ru/waf"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "База знаний",
+                    "hasPart": [
+                        {
+                            "@type": "WebPage",
+                            "name": "Инструкции",
+                            "url": "https://ddos-guard.ru/tutorials"
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Термины",
+                            "url": "https://ddos-guard.ru/terms"
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Технологии",
+                            "url": "https://ddos-guard.ru/technologies"
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Модель OSI",
+                            "url": "https://ddos-guard.ru/osi-model"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "О компании",
+                    "hasPart": [
+                        {
+                            "@type": "WebPage",
+                            "name": "Компания",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "О нас",
+                                    "url": "https://ddos-guard.ru/about-us"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Контакты",
+                                    "url": "https://ddos-guard.ru/contacts"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Работа в DDoS-Guard",
+                                    "url": "https://ddos-guard.ru/careers"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "СМИ о нас",
+                                    "url": "https://ddos-guard.ru/media"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Клиентам",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Кейсы",
+                                    "url": "https://ddos-guard.ru/case-studies"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Презентации",
+                                    "url": "https://ddos-guard.ru/presentations"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebPage",
+                            "name": "Для СМИ",
+                            "hasPart": [
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Пресс-центр",
+                                    "url": "https://ddos-guard.ru/press"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Отчеты",
+                                    "url": "https://ddos-guard.ru/reports"
+                                },
+                                {
+                                    "@type": "WebPage",
+                                    "name": "Радар",
+                                    "url": "https://ddos-guard.ru/radar"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Партнерам",
+                    "url": "https://ddos-guard.ru/partnership"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Блог",
+                    "url": "https://ddos-guard.ru/blog"
+                }
+            ]
+        },
+        {
+            "@context": "https://schema.org/",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https://ddos-guard.ru/vds-vps#webpage",
+                    "url": "https://ddos-guard.ru/vds-vps",
+                    "name": "VDS/VPS с защитой от DDoS-атак | DDoS-Guard",
+                    "inLanguage": "ru",
+                    "mainEntity": {
+                        "@id": "urn:ddosguard:ru:vds-vps"
+                    },
+                    "isPartOf": {
+                        "@type": "WebSite",
+                        "@id": "urn:ddosguard:ru:site"
+                    }
+                }
+            ]
+        },
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Главная",
+                            "item": "/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "VDS/VPS с защитой от DDoS-атак"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@context": "https://schema.org/",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https://ddos-guard.ru/vds-vps#webpage",
+                    "url": "https://ddos-guard.ru/vds-vps",
+                    "mainEntity": {
+                        "@id": "urn:ddosguard:ru:vds-vps"
+                    },
+                    "isPartOf": {
+                        "@id": "urn:ddosguard:ru:site"
+                    }
+                },
+                {
+                    "@type": "ProductGroup",
+                    "@id": "urn:ddosguard:ru:vds-vps",
+                    "productGroupID": "vds-vps",
+                    "mainEntityOfPage": {
+                        "@id": "https://ddos-guard.ru/vds-vps#webpage"
+                    },
+                    "name": "VDS/VPS: виртуальные серверы с защитой от DDoS | DDoS-Guard",
+                    "description": "✔️ Аренда VPS с защитой от всех известных DDoS атак. ✔️ Фильтрация на уровне сети и приложений, отказоустойчивость 99,95%. Выбирайте тарифы по CPU, RAM и диску под свою нагрузку",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://ddos-guard.net/file/vds-vps_1200%D1%851200.webp",
+                            "width": 1200,
+                            "height": 1200
+                        },
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://ddos-guard.net/file/vds-vps_1200%D1%85900.webp",
+                            "width": 1200,
+                            "height": 900
+                        },
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://ddos-guard.net/file/vds-vps_1200%D1%85675.webp",
+                            "width": 1200,
+                            "height": 675
+                        }
+                    ],
+                    "brand": {
+                        "@type": "Organization",
+                        "@id": "urn:ddosguard:ru:org",
+                        "name": "DDoS-Guard"
+                    },
+                    "category": "Аренда серверных мощностей",
+                    "variesBy": [
+                        "https://schema.org/size"
+                    ],
+                    "additionalProperty": [
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:sla",
+                            "name": "Гарантированная доступность (SLA)",
+                            "value": "99.95",
+                            "unitText": "%"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:fbw",
+                            "name": "Пропускная способность полосы фильтрации",
+                            "value": "4",
+                            "unitText": "Tbit/s"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:cdn",
+                            "name": "Сеть CDN",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:dns",
+                            "name": "Сеть DNS",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:sup24",
+                            "name": "Круглосуточная техподдержка (24/7)",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:ssl",
+                            "name": "Бесплатные SSL-сертификаты от Let’s Encrypt",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:bandwidth",
+                            "name": "Легитимная полоса пропускания",
+                            "maxValue": 1,
+                            "unitText": "Гбит/с"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l7",
+                            "name": "Защита от DDoS-атак на прикладном уровне",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l3-4",
+                            "name": "Защита от DDoS-атак на сетевом и протокольном уровне",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:pay-attacks",
+                            "name": "Плата за отраженные атаки",
+                            "value": false
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:geo-network",
+                            "name": "Геораспределенная сеть узлов фильтрации трафика",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:traffic-limit",
+                            "name": "Без ограничений по трафику",
+                            "value": false
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:analytics",
+                            "name": "Статистика и аналитика трафика в реальном времени",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:ip-lists",
+                            "name": "Управление черными и белыми списками IP",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:discount",
+                            "name": "Скидка при оплате за 3/6/12 месяцев",
+                            "maxValue": 20,
+                            "unitText": "%"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:kvm",
+                            "name": "Виртуализация KVM с гарантированным выделением ресурсов",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:api",
+                            "name": "Управление услугами через личный кабинет и API",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:upgrade",
+                            "name": "Апгрейд конфигурации в любой момент без технических сложностей",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:panels",
+                            "name": "Панели управления cPanel, Plesk, ISPmanager",
+                            "value": "Дополнительная услуга"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:admin",
+                            "name": "Администрирование сервера",
+                            "value": "Дополнительная услуга"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:migration",
+                            "name": "Перенос проекта",
+                            "value": "Дополнительная услуга"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l7-attacks",
+                            "name": "Защита от атак на прикладном уровне (L7) — виды атак",
+                            "value": "HTTP-флуд; HTTP-флуд одиночными сессиями; HTTP-флуд одиночными запросами; рекурсивный HTTP GET-флуд; случайный рекурсивный GET-флуд; атака фрагментированными HTTP-пакетами; Slowloris; R.U.D.Y.; SSL garbage flood; Apache Killer; атаки на приложения (misused/faulty application); SIP-атаки (register/call flood, malformed)"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l3-4-attacks",
+                            "name": "Защита от атак на сетевом и транспортном уровне (L3–L4) — виды атак",
+                            "value": "SYN-флуд; SYN-ACK-флуд; ACK/PUSH-ACK-флуд; RST/FIN-флуд; атаки поддельными TCP-сессиями (fake session, multiple SYN-ACK, multiple ACK); UDP-флуд; UDP-фрагментационный флуд; ICMP-флуд (Ping-флуд); ICMP-фрагментационный флуд (Nuke); Ping of Death; IP-фрагментационные атаки (Teardrop, IP Null); TCP Null; Smurf; Fraggle; DNS-флуд; амплификационные атаки (DNS, NTP, SSDP, SNMP, Memcached, CharGEN); NTP-флуд; VoIP/SIP-флуд; Type-of-Service флуд"
+                        }
+                    ],
+                    "review": [
+                        {
+                            "@type": "Review",
+                            "reviewBody": "Наша группа компаний работаем много лет с DDoS Guard. Хороший здоровый коллектив, качественные услуги. Приятно развиваться вместе с надежными партнерами и профессионалами своего дела!",
+                            "author": {
+                                "@type": "Person",
+                                "name": "DWDM.RU"
+                            },
+                            "sourceOrganization": {
+                                "@type": "Organization",
+                                "name": "Яндекс"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5"
+                            }
+                        },
+                        {
+                            "@type": "Review",
+                            "reviewBody": "За три года сотрудничества сервис не подводил. Защита работает, никаких претензий",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Софья"
+                            },
+                            "sourceOrganization": {
+                                "@type": "Organization",
+                                "name": "Яндекс"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5"
+                            }
+                        }
+                    ],
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingValue": 4.8,
+                        "reviewCount": 118
+                    },
+                    "url": "https://ddos-guard.ru/vds-vps",
+                    "hasVariant": [
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:vds-vps:start-up-guard",
+                            "sku": "vds-vps-start-up-guard",
+                            "name": "VDS/VPS с защитой от DDoS-атак «Start-up Guard»",
+                            "size": "start-up",
+                            "description": "Стартовый защищённый виртуальный сервер для небольшого сайта или MVP-проекта: 1 ядро CPU, 2 ГБ RAM, 20 ГБ SSD, канал 100 Мбит/с. Защита от DDoS-атак на уровнях L3–L4 до 4 Тбит/с и L7 до 750 Mpps, SSL Let's Encrypt, защищённые DNS-серверы, SLA 99.95%. Опция: канал 1 Гбит/с.",
+                            "url": "https://ddos-guard.ru/vds-vps",
+                            "image": "https://ddos-guard.net/file/vds-vps_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 11620,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/vds-vps"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:vds-vps:level-up-guard",
+                            "sku": "vds-vps-level-up-guard",
+                            "name": "VDS/VPS с защитой от DDoS-атак «Level-up Guard»",
+                            "size": "level-up",
+                            "description": "Защищённый виртуальный сервер для растущего проекта или интернет-магазина: 2 ядра CPU, 4 ГБ RAM, 40 ГБ SSD, канал 100 Мбит/с. Защита от DDoS-атак на уровнях L3–L4 до 4 Тбит/с и L7 до 750 Mpps, SSL Let's Encrypt, защищённые DNS-серверы, SLA 99.95%. Опция: канал 1 Гбит/с.",
+                            "url": "https://ddos-guard.ru/vds-vps",
+                            "image": "https://ddos-guard.net/file/vds-vps_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 15240,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/vds-vps"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:vds-vps:pro-guard",
+                            "sku": "vds-vps-pro-guard",
+                            "name": "VDS/VPS с защитой от DDoS-атак «Pro Guard»",
+                            "size": "pro",
+                            "description": "Защищённый виртуальный сервер для проектов с высокой нагрузкой: 4 ядра CPU, 6 ГБ RAM, 60 ГБ SSD, канал 100 Мбит/с. Защита от DDoS-атак на уровнях L3–L4 до 4 Тбит/с и L7 до 750 Mpps, SSL Let's Encrypt, защищённые DNS-серверы, SLA 99.95%. Опция: канал 1 Гбит/с.",
+                            "url": "https://ddos-guard.ru/vds-vps",
+                            "image": "https://ddos-guard.net/file/vds-vps_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 19440,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/vds-vps"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:vds-vps:premium-guard",
+                            "sku": "vds-vps-premium-guard",
+                            "name": "VDS/VPS с защитой от DDoS-атак «Premium Guard»",
+                            "size": "premium",
+                            "description": "Защищённый виртуальный сервер для крупных проектов и игровых серверов: 6 ядер CPU, 8 ГБ RAM, 80 ГБ SSD, канал 100 Мбит/с. Защита от DDoS-атак на уровнях L3–L4 до 4 Тбит/с и L7 до 750 Mpps, SSL Let's Encrypt, защищённые DNS-серверы, SLA 99.95%. Опция: канал 1 Гбит/с.",
+                            "url": "https://ddos-guard.ru/vds-vps",
+                            "image": "https://ddos-guard.net/file/vds-vps_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 23640,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/vds-vps"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:vds-vps:ultimate-guard",
+                            "sku": "vds-vps-ultimate-guard",
+                            "name": "VDS/VPS с защитой от DDoS-атак «Ultimate Guard»",
+                            "size": "ultimate",
+                            "description": "Максимальная готовая конфигурация защищённого виртуального сервера: 8 ядер CPU, 16 ГБ RAM, 100 ГБ SSD, канал 100 Мбит/с. Защита от DDoS-атак на уровнях L3–L4 до 4 Тбит/с и L7 до 750 Mpps, SSL Let's Encrypt, защищённые DNS-серверы, SLA 99.95%. Опция: канал 1 Гбит/с.",
+                            "url": "https://ddos-guard.ru/vds-vps",
+                            "image": "https://ddos-guard.net/file/vds-vps_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 33360,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/vds-vps"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]

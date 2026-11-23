@@ -1,0 +1,330 @@
+    [
+        {
+            "@context": "https://schema.org/",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https://ddos-guard.ru/hosting#webpage",
+                    "url": "https://ddos-guard.ru/hosting",
+                    "name": "Хостинг с защитой от DDoS-атак | DDoS-Guard",
+                    "inLanguage": "ru",
+                    "mainEntity": {
+                        "@id": "urn:ddosguard:ru:hosting"
+                    },
+                    "isPartOf": {
+                        "@type": "WebSite",
+                        "@id": "urn:ddosguard:ru:site"
+                    }
+                },
+                {
+                    "@type": "Table",
+                    "@id": "https://ddos-guard.ru/hosting#table-comparison-rates",
+                    "name": "Сравнение тарифов хостинга с защитой от DDoS-атак",
+                    "description": "Таблица сравнения тарифов хостинга Simple MSK, Standard MSK, Advanced MSK, Expert MSK: домены под защитой, фильтруемая полоса, дисковое пространство, лимиты RAW, SLA, техподдержка и дополнительные опции",
+                    "url": "https://ddos-guard.ru/hosting#comparison",
+                    "isPartOf": {
+                        "@id": "https://ddos-guard.ru/hosting#webpage"
+                    },
+                    "inLanguage": "ru",
+                    "about": {
+                        "@id": "urn:ddosguard:ru:hosting"
+                    }
+                },
+                {
+                    "@type": "ProductGroup",
+                    "@id": "urn:ddosguard:ru:hosting",
+                    "productGroupID": "hosting",
+                    "mainEntityOfPage": {
+                        "@id": "https://ddos-guard.ru/hosting#webpage"
+                    },
+                    "name": "Хостинг с защитой от DDoS-атак | DDoS-Guard",
+                    "description": "✔️Хостинг с защитой от DDoS .✔️Специализированный хостинг-провайдер отражаем атаки на сеть и веб-приложения. ✔️Размещение в дата-центрах уровня Tier III",
+                    "image": [
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://ddos-guard.net/file/hosting_1200%D1%851200.webp",
+                            "width": 1200,
+                            "height": 1200
+                        },
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://ddos-guard.net/file/hosting_1200%D1%85900.webp",
+                            "width": 1200,
+                            "height": 900
+                        },
+                        {
+                            "@type": "ImageObject",
+                            "url": "https://ddos-guard.net/file/hosting_1200%D1%85675.webp",
+                            "width": 1200,
+                            "height": 675
+                        }
+                    ],
+                    "brand": {
+                        "@type": "Organization",
+                        "@id": "urn:ddosguard:ru:org",
+                        "name": "DDoS-Guard"
+                    },
+                    "category": "Аренда серверных мощностей",
+                    "variesBy": [
+                        "https://schema.org/size"
+                    ],
+                    "additionalProperty": [
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:sla",
+                            "name": "Гарантированная доступность (SLA)",
+                            "value": "99.95",
+                            "unitText": "%"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:fbw",
+                            "name": "Пропускная способность полосы фильтрации",
+                            "value": "4",
+                            "unitText": "Tbit/s"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:subdomain",
+                            "name": "Защита поддоменов",
+                            "value": "Безлимитно"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:ssl",
+                            "name": "Бесплатные SSL-сертификаты от Let’s Encrypt",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:cdn",
+                            "name": "Сеть CDN",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:dns",
+                            "name": "Сеть DNS",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:sup24",
+                            "name": "Круглосуточная техподдержка (24/7)",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:bandwidth",
+                            "name": "Легитимная полоса пропускания",
+                            "maxValue": 10,
+                            "unitText": "Гбит/с"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:geo-network",
+                            "name": "Геораспределенная сеть узлов фильтрации трафика",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:traffic-limit",
+                            "name": "Без ограничений по трафику",
+                            "value": false
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:dc-tier",
+                            "name": "Дата-центры уровня Tier III",
+                            "value": "Tier III"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:analytics",
+                            "name": "Статистика и аналитика трафика в реальном времени",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:discount",
+                            "name": "Скидка при оплате за 3/6/12 месяцев",
+                            "maxValue": 20,
+                            "unitText": "%"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:cpanel",
+                            "name": "Управление хостингом через cPanel",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:php",
+                            "name": "Поддержка версий PHP",
+                            "value": "7.0–8.2"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:dedicated-ip",
+                            "name": "Выделенный IP-адрес для одного домена",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:pay-attacks",
+                            "name": "Плата за отраженные атаки",
+                            "value": false
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l7",
+                            "name": "Защита от DDoS-атак на прикладном уровне",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l3-4",
+                            "name": "Защита от DDoS-атак на сетевом и протокольном уровне",
+                            "value": true
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l7-attacks",
+                            "name": "Защита от атак на прикладном уровне (L7) — виды атак",
+                            "value": "HTTP-флуд; HTTP-флуд одиночными сессиями; HTTP-флуд одиночными запросами; рекурсивный HTTP GET-флуд; случайный рекурсивный GET-флуд; атака фрагментированными HTTP-пакетами; Slowloris; R.U.D.Y.; SSL garbage flood; Apache Killer; атаки на приложения (misused/faulty application); SIP-атаки (register/call flood, malformed)"
+                        },
+                        {
+                            "@type": "PropertyValue",
+                            "@id": "urn:ddosguard:ru:spec:l3-4-attacks",
+                            "name": "Защита от атак на сетевом и транспортном уровне (L3–L4) — виды атак",
+                            "value": "SYN-флуд; SYN-ACK-флуд; ACK/PUSH-ACK-флуд; RST/FIN-флуд; атаки поддельными TCP-сессиями (fake session, multiple SYN-ACK, multiple ACK); UDP-флуд; UDP-фрагментационный флуд; ICMP-флуд (Ping-флуд); ICMP-фрагментационный флуд (Nuke); Ping of Death; IP-фрагментационные атаки (Teardrop, IP Null); TCP Null; Smurf; Fraggle; DNS-флуд; амплификационные атаки (DNS, NTP, SSDP, SNMP, Memcached, CharGEN); NTP-флуд; VoIP/SIP-флуд; Type-of-Service флуд"
+                        }
+                    ],
+                    "review": [
+                        {
+                            "@type": "Review",
+                            "reviewBody": "В какой-то момент DDoS-Guard нас просто спасли. Мы государственное учреждение и пока не столкнулись с DDoS-атаками на наш сайт, я даже не знала, что это такое. Сайт лежал, все были в панике, потому что у нас есть личный кабинет и формы обратной связи, для пользователей это стало недоступно. Я позвонила в момент атаки, меня проконсультировали и включили защиту сразу. Даже не дожидаясь оплаты и подписания договора, просто по гарантийному письму! Пока все обновилось, через час-полтора сайт заработал, атаки стали отбиваться. Нас тогда очень выручили. Очень интересно смотреть статистику в личном кабинете, все наглядно, скачиваю отчеты для руководства, видно за что платим. Попутно узнала для себя много нового",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Екатерина Демченко"
+                            },
+                            "sourceOrganization": {
+                                "@type": "Organization",
+                                "name": "Google Business Profile"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5"
+                            }
+                        },
+                        {
+                            "@type": "Review",
+                            "reviewBody": "Предлагают адекватные методы и способы защиты. Подходят индивидуально, по крайней мере, можно обратиться за консультацией при заказе услуги. И разобраться помогут, и на вопросы ответят!",
+                            "author": {
+                                "@type": "Person",
+                                "name": "Владислав"
+                            },
+                            "sourceOrganization": {
+                                "@type": "Organization",
+                                "name": "Google Business Profile"
+                            },
+                            "reviewRating": {
+                                "@type": "Rating",
+                                "ratingValue": "5"
+                            }
+                        }
+                    ],
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "bestRating": 5,
+                        "worstRating": 1,
+                        "ratingValue": 4.8,
+                        "reviewCount": 148
+                    },
+                    "url": "https://ddos-guard.ru/hosting",
+                    "hasVariant": [
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:hosting:simple-msk",
+                            "sku": "hosting-simple-msk",
+                            "name": "Хостинг с защитой «Simple MSK»",
+                            "size": "simple",
+                            "description": "Базовый защищённый хостинг для одного сайта: 20 ГБ диска, 2 ГБ памяти, 1 ядро CPU, защита от DDoS до 4 Тбит/с, CDN, SSL Let's Encrypt и выделенный IP. Почта, бэкапы, антивирус и WordPress Toolkit не включены — только защита и размещение.",
+                            "url": "https://ddos-guard.ru/hosting",
+                            "image": "https://ddos-guard.net/file/hosting_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 4000,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/hosting"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:hosting:standard-msk",
+                            "sku": "hosting-standard-msk",
+                            "name": "Хостинг с защитой «Standard MSK»",
+                            "size": "standard",
+                            "description": "Оптимальный тариф для рабочих проектов: вдвое больше ресурсов (40 ГБ, 4 ГБ RAM, 2 ядра), почтовые ящики без ограничений, бэкапы, антивирус ImunifyAV+, сторонние SSL и SSL для поддоменов, WordPress Toolkit. Ответ поддержки — до 1 часа.",
+                            "url": "https://ddos-guard.ru/hosting",
+                            "image": "https://ddos-guard.net/file/hosting_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 6000,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/hosting"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:hosting:advanced-msk",
+                            "sku": "hosting-advanced-msk",
+                            "name": "Хостинг с защитой «Advanced MSK»",
+                            "size": "advanced",
+                            "description": "Для нагруженных сайтов и магазинов: 60 ГБ диска, 6 ГБ памяти, лимит отправки писем 600/час (у Standard — 300), до 3 чёрных и белых списков. Полный набор функций защиты и ускорения, время ответа поддержки сокращено до 45 минут.",
+                            "url": "https://ddos-guard.ru/hosting",
+                            "image": "https://ddos-guard.net/file/hosting_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 10000,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/hosting"
+                            }
+                        },
+                        {
+                            "@type": "Product",
+                            "@id": "urn:ddosguard:ru:hosting:expert-msk",
+                            "sku": "hosting-expert-msk",
+                            "name": "Хостинг с защитой «Expert MSK»",
+                            "size": "expert",
+                            "description": "Максимальный тариф для крупных проектов: 80 ГБ диска, 8 ГБ RAM, 4 ядра CPU, лимит писем 900/час, 4 чёрных/белых списка, лимит inodes 250 000. Приоритетная поддержка с ответом до 30 минут — вдвое быстрее, чем на Simple.",
+                            "url": "https://ddos-guard.ru/hosting",
+                            "image": "https://ddos-guard.net/file/hosting_1200%D1%851200.webp",
+                            "brand": {
+                                "@id": "urn:ddosguard:ru:org"
+                            },
+                            "offers": {
+                                "@type": "Offer",
+                                "price": 18000,
+                                "priceCurrency": "RUB",
+                                "availability": "https://schema.org/InStock",
+                                "url": "https://ddos-guard.ru/hosting"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
